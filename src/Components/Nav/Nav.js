@@ -5,6 +5,8 @@ export default function Nav({}) {
         <div classname={'NavLinks'}>
             <Link to='/'>Home</Link>
             <Link to='/about'>About</Link>
+            <Link to='/events'>Events</Link>
+            <Link to='/appointment'>Make an Appointment</Link>
         </div>
     )
 }
